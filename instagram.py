@@ -12,7 +12,7 @@ bot = telebot.TeleBot(API_KEY, parse_mode=None)
 
 @bot.message_handler(commands=['start', 'help'])
 def send_welcome(message):
-    bot.reply_to(message, "Hello ...\nEnter the user account")
+    bot.reply_to(message, "welcome to the bot🖐️🖐️\n send me anyone instagram username to get their DP\n ex: virat.kohli, thenameisyash etc ")
 
 
 @bot.message_handler(func=lambda message: True)
